@@ -1,0 +1,21 @@
+{
+  "name": "HTML-outputs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "make watch",
+    "serve": "make serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "decktape": "^2.8.9",
+    "live-server": "^1.2.0",
+    "onchange": "^3.3.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.3"
+  }
+}
