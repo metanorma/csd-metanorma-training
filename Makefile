@@ -12,7 +12,7 @@ SHELL := /bin/bash
 
 all: $(OUT_FILES)
 
-%.html: %.adoc revealjs-css reveal.js reveal-images bundle cc-presentation-framework/revealjs-css/calconnect.css
+%.html: %.adoc revealjs-css reveal.js reveal-images bundle $(CSS_SRC)
 	bundle exec asciidoctor-revealjs $< --trace
 
 %.pdf: %.html

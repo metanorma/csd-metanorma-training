@@ -1,0 +1,17 @@
+language: ruby
+sudo: required
+cache:
+  bundler: true
+  directories:
+    - node_modules
+rvm:
+- 2.5.1
+install:
+- sudo apt update
+- sudo apt install nodejs
+- sudo apt install npm
+before_script:
+- bundle
+- git submodule update --init --recursive
+script:
+- make clean all
