@@ -12,6 +12,7 @@ install:
 - sudo apt install npm
 before_script:
 - bundle
+- git submodule init
 - git submodule update --init --recursive
 script:
 - make clean all
