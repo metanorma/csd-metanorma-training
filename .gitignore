@@ -1,0 +1,9 @@
+.DS_Store
+index.html
+index.pdf
+node_modules/
+package-lock.json
+package.json
+reveal-images
+reveal.js
+revealjs-css

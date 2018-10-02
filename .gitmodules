@@ -1,0 +1,3 @@
+[submodule "cc-presentation-framework"]
+	path = cc-presentation-framework
+	url = https://github.com/CalConnect/cc-presentation-framework

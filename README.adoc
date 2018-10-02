@@ -1,0 +1,76 @@
+= Authoring CalConnect Standards (Presentation from CalConnect XLIII)
+
+== General
+
+This is a presentation from the training session on authoring CalConnect Standards
+using CSD and Metanorma, as given during CalConnect XLIII.
+
+This presentation is built using the
+https://github.com/CalConnect/cc-presentation-framework/[CalConnect Presentation Framework],
+which relies on Reveal.js to generate HTML and PDF slides.
+
+
+== Usage
+
+=== Prerequisites
+
+First thing. Run this command to setup everything you need:
+
+[source,shell]
+----
+git submodule update --init --recursive
+----
+
+
+=== Authoring
+
+There is just a single file for the presentation, `index.adoc`.
+
+
+=== Generating all formats
+
+Run this to generate all formats (HTML, PDF):
+
+[source,sh]
+----
+make clean all
+----
+
+
+=== Iterating development on a single format
+
+If you'd like to iterate just on HTML, run this:
+
+[source,sh]
+----
+make html open-html
+----
+
+
+=== Running a local server to watch for and build on changes
+
+If you'd like to run a local server that automatically re-builds on changes,
+do this:
+
+[source,sh]
+----
+make watch-serve
+----
+
+
+=== Regenerating the calconnect.css file
+
+[source,sh]
+----
+make dist-clean
+----
+
+And then run `make all`, the file should be generated automatically.
+
+
+== Credits
+
+This training was developed by Ronald Tse and Jeffrey Lau of Ribose
+(and of CalConnect TC PUBLISH + TC VCARD).
+
+No animals were harmed during its development.
