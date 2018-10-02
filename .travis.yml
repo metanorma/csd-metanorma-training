@@ -10,7 +10,8 @@ install:
 - sudo apt update
 - sudo apt install nodejs
 - sudo apt install npm
-- npm install decktape
+- npm i npm@latest -g
+- npm i decktape -g
 before_script:
 - bundle
 - git submodule init
