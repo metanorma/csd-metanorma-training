@@ -1,5 +1,8 @@
 = Authoring CalConnect Standards (Presentation from CalConnect XLIII)
 
+image:https://img.shields.io/travis/riboseinc/csd-metanorma-training/master.svg["Build Status", link="https://travis-ci.org/riboseinc/csd-metanorma-training"]
+//image:https://codeclimate.com/github/riboseinc/csd-metanorma-training/badges/gpa.svg["Code Climate", link="https://codeclimate.com/github/riboseinc/csd-metanorma-training"]
+
 == General
 
 This is a presentation from the training session on authoring CalConnect Standards
