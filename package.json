@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "decktape": "^2.8.9",
+    "decktape": "^3.4.1",
     "live-server": "^1.2.0",
     "onchange": "^3.3.0"
   },
