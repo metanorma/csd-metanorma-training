@@ -12,8 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "decktape": "^3.4.1",
-    "live-server": "^1.2.0",
-    "onchange": "^3.3.0"
+    "live-server": "^1.2.2",
+    "onchange": "^7.1.0"
   },
   "devDependencies": {
     "npm-run-all": "^4.1.3"
